@@ -2,12 +2,12 @@ package practise;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DuplicateCounter {
+public class DuplicateCount {
     public static void main(String[] args) {
         // Example list
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(3);
-        numbers.add(5);
+        numbers.add(1);
         numbers.add(3);
         numbers.add(7);
         numbers.add(5);

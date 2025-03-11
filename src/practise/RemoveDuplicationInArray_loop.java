@@ -11,12 +11,14 @@ public class RemoveDuplicationInArray_loop {
 		Arrays.sort(number);
 		for(int i=0;i<number.length;i++)
 		{
-			if(i==0 || number[i]!=number[i-1] )
+			if(i==0 || number[i] !=number[i-1] )
 			{
 				unarray[j++]=number[i];
 			}
 		}
-		int unarray2[]= Arrays.copyOf(unarray, j);
+		System.out.println(Arrays.toString(unarray));
+		
+		int unarray2[]= Arrays.copyOf(unarray, j);   		//use to delete 0 from the arrays
 		System.out.println(Arrays.toString(unarray2));
 		
 		

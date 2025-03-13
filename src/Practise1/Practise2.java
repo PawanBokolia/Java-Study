@@ -33,18 +33,14 @@ public class Practise2 {
 		}
 		
 		System.out.println(Arrays.toString(arr4));
-		
-		
+	
 		HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
 		
 		for(int a:arr)
 		{
 			map.put(a, map.getOrDefault(a,0)+1);
 		}
-		
-		System.out.println( map.keySet());
-		System.out.println( map.values());
-		
+				
 		for(int i=0;i<arr.length;i++)
 		{
 			if(p<arr[i])

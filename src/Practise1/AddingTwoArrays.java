@@ -2,7 +2,7 @@ package Practise1;
 
 import java.util.Arrays;
 
-public class Newtest {
+public class AddingTwoArrays {
 
 	public static void main(String[] args) {
 

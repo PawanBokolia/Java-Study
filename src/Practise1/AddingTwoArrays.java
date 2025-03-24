@@ -16,8 +16,6 @@ public class AddingTwoArrays {
 		{
 			list.add(a);
 		}
-
-		
 		
 		for(int a : arr1)
 		{
@@ -29,7 +27,6 @@ public class AddingTwoArrays {
 		
 		Collections.sort(list);
 		System.out.println(list);
-		
 		
 		}
 }

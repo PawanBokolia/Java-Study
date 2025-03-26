@@ -3,7 +3,7 @@ package CollectionsDemo;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class LinkListDemo2 {
+public class LinkedListDemo2 {
 
 	public static void main(String args[]) {
 		

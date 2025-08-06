@@ -8,11 +8,15 @@ public class Practise1 {
 		System.out.println(a+b);
 	}
 	
-	public  void parent()
+	public void parent(double b, int a)
 	{
-		System.out.println("this is for testing");
-	}	
+		System.out.println(a+b);
+	}
 		
-		
+	
+	
+	
+	
+	
 }
 

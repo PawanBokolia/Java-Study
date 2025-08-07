@@ -1,6 +1,6 @@
 package study2;
 
-public class Practise2 extends Practise1 {
+public class Practise2 extends StringBuilderDemo {
 	
 	
 	

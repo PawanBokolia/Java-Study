@@ -26,6 +26,7 @@ public class StringBuilderDemo {
 		
 		
 		System.out.println(result.toString());
+		System.out.println();
 		
 		
 		

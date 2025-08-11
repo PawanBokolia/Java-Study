@@ -26,8 +26,7 @@ public class StringBuilderDemo {
 		
 		
 		System.out.println(result.toString());
-
-		
-		System.out.println("this is new text");
+	
+	
 	}
 }

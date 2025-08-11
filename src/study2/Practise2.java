@@ -18,11 +18,6 @@ public class Practise2 extends StringBuilderDemo {
 	
 	
 	
-	
-	
-	
-	
-		
 		
 }
 	

@@ -14,6 +14,7 @@ public class Practise4 {
 		{
 			app[i] = arr[arr.length-1-i];
 			word1.append(app[i]+" ");
+			word1.reverse().toString();			
 		}
 		
 		word1.reverse().toString();

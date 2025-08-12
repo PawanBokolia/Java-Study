@@ -1,7 +1,5 @@
 package study2;
 
-import java.util.*;
-
 public class StringBuilderDemo {
 
 	public static void main(String args[]) {
@@ -18,12 +16,10 @@ public class StringBuilderDemo {
 		StringBuilder result = new StringBuilder();
 
 		for(String word : words)
-		{
-			 String reversedWord = new StringBuilder(word).reverse().toString();
+		{	
+			 String reversedWord = new  StringBuilder(word).reverse().toString();
 			 result.append(reversedWord).append(" ");
-			
 		}
-		
 		
 		System.out.println(result.toString());
 	

@@ -4,17 +4,18 @@ public class Static_non_static {
 
 	static int a =10;
 	int b=20;
-	static void m1() // static method 
+	
+	static void m1() 	// static method 
 	{
 		System.out.println("this is m1 staic method......");
 	}
 	
-	void m2() // non static method 
+	void m2() 			// non static method 
 	{
 		System.out.println("this is m2 non static method......");
 	}
 	
-	void m() //non static method point 3  
+	void m() 			//non static method point 3  
 	{
 		System.out.println(a);
 		System.out.println(b);
@@ -23,18 +24,18 @@ public class Static_non_static {
 	}
 	
 	
-/*	public static void main(String []args ) {
-	//	System.out.println(a);
-	//	System.out.println(b);  // can't call without using object 
-	//	m1();
-		Static_non_static sd=new Static_non_static ();
-		sd.m();
-*/		
+	
+//	public static void main(String []args ) {
+//		System.out.println(a);
+//		System.out.println(b);  					// can't call without using object 
+//		m1();
+//		Static_non_static sd=new Static_non_static ();
+//		sd.m();
+		
 		
 		
 		
 	}
-	
 	
 	
 

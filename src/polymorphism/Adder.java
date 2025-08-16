@@ -19,7 +19,7 @@ public class Adder {
 		System.out.println(x + y);		// 3 method
 	}
 
-	void sum(double x, int y)
+	void sum(double x, int y)			//4 method
 	{
 		System.out.println(x+y);
 	}

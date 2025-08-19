@@ -2,17 +2,20 @@ package study2;
 
 public class Practise1 {
 
-	int a,b,c;
+	public static void main(String args []) {
+		
+		int n =4;
 	
-	int test(int a )
-	{
-		return a = a+190;
-	}
-	
-	
-	public static void main(String []args)
-	{
-		Practise1 p = new Practise1();
-		System.out.println(p.test(1));	
+		for(int i=n; i>=1; i--)
+		{
+			for(int j=1; j<=i; j++)
+			{
+				System.out.print("*");
+			}
+				System.out.println();
+		}
+		
+		
+		
 	}
 }

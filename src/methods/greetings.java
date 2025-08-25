@@ -3,7 +3,7 @@ package methods;
 public class greetings {
 
 	// no params    no return value 
-	void m1(){
+	void m1()    {
 		System.out.println("Hello...");
 	}
 	

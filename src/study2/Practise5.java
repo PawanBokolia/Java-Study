@@ -105,7 +105,10 @@ public class Practise5 {
 		
 		System.out.println(output);
 */		
-		String input = "abcrssssssotuuuuuuuklpppppppp";
+	
+		
+		//
+/*		String input = "abcrssssssotuuuuuuuklpppppppp";
 		StringBuffer output = new StringBuffer();
 		int count =1;
 		for(int i=1; i<input.length(); i++)
@@ -135,10 +138,36 @@ public class Practise5 {
 		output.append(input.charAt(input.length() - 1));
 
 		System.out.println(output);
+*/		
+
 		
-	
+		String input = "abcrssssssotuuuuuuuklpppppppp";
+		StringBuffer output = new StringBuffer();
+		int count =0;
 		
+		for(int i=1; i<input.length(); i++)
+		{
+			char character = input.charAt(i);
+			
+			if(input.charAt(i)==input.charAt(i-1))
+			{
+				count++;
+			}
+			
+			else 
+			{
+				if(count>0)
+				{
+					output.append(count);
+				}
+				
+				output.append(input.charAt(i-1));
+				count =0 ;
+			}
+			
+		}
 		
+		System.out.println(output);
 		
 		
 		

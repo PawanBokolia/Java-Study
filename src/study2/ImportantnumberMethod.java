@@ -4,7 +4,7 @@ public class ImportantnumberMethod {
 
 	public static void main(String[] args) {
 	
-		String arr ="paw6wan3and7";
+		String arr ="paw6wan3and7"; // w needs to print 6 times
 		
 		StringBuffer output = new StringBuffer();
 		
@@ -17,7 +17,7 @@ public class ImportantnumberMethod {
 				char before =arr.charAt(i-1);
 				int repeat = Character.getNumericValue(character);
 				
-				for(int j=0;j<repeat;j++)
+				for(int j=0;j<repeat-1;j++)  // -1 beacuse it is printing the same value in the loop 
 				{
 					output.append(before);
 				}

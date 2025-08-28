@@ -17,7 +17,7 @@ public class ImportantnumberMethod {
 				char before =arr.charAt(i-1);
 				int repeat = Character.getNumericValue(character);
 				
-				for(int j=0;j<repeat-1;j++)  // -1 beacuse it is printing the same value in the loop 
+				for(int j=0;j<repeat-2;j++)  // -2 beacuse it is printing the same value in the loop 
 				{
 					output.append(before);
 				}
@@ -29,7 +29,7 @@ public class ImportantnumberMethod {
 			
 			
 		}
-		System.out.println(output.toString());
+		System.out.println(output);
 		
 		
 		

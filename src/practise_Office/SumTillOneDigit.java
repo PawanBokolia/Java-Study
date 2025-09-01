@@ -1,6 +1,6 @@
 package practise_Office;
 
-public class Practise2 {
+public class SumTillOneDigit {
 
 	public static int output (int  input)
 	{
